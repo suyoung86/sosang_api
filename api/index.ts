@@ -26,6 +26,6 @@ app.get("/sosang", function (req: any, res: any) {
 
 app.listen(3000, function () {
   console.log(
-    "http://127.0.0.1:8080/sosang?serviceKey=zWJZJMGi7kBIlToG%2FGVb4RpeALKnhLOKl6B0XRnr%2Bs2w2WtifQ1c8ktURng7cT9gtnNh%2FjkBOrSD0rBqE2mPlA%3D%3D&key=10&servicekey=100&type=100 app listening on port 3000!"
+    "http://127.0.0.1:8080/sosang?serviceKey=zWJZJMGi7kBIlToG%2FGVb4RpeALKnhLOKl6B0XRnr%2Bs2w2WtifQ1c8ktURng7cT9gtnNh%2FjkBOrSD0rBqE2mPlA%3D%3D&key=10&servicekey=100&type=100 app listening on port 8080!"
   );
 });
