@@ -32,6 +32,6 @@ app.get('/sosang', async (req: Request, res: Response) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 서버 주소: http://localhost:${PORT}`);
-  console.log(`🔗 테스트 URL: http://localhost:${PORT}/sosang?key=9174&servicekey=zWJZJMGi7kBIlToG%2FGVb4RpeALKnhLOKl6B0XRnr%2Bs2w2WtifQ1c8ktURng7cT9gtnNh%2FjkBOrSD0rBqE2mPlA%3D%3D&type=xml`);
+  console.log(`🚀 서버 주소: https://sosang-api.vercel.app/`);
+  console.log(`🔗 테스트 URL: https://sosang-api.vercel.app//sosang?key=9174&servicekey=zWJZJMGi7kBIlToG%2FGVb4RpeALKnhLOKl6B0XRnr%2Bs2w2WtifQ1c8ktURng7cT9gtnNh%2FjkBOrSD0rBqE2mPlA%3D%3D&type=xml`);
 });
